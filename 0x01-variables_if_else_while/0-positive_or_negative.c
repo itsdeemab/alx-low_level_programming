@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -7,7 +8,7 @@
  *
  *Return: Always 0 (Success)
  */
-int main(void)
+int main(void);
 {
 	int n;
 
