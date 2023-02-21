@@ -2,13 +2,13 @@
 /**
  * print_last_digit - Prints the last digit of a number
  * @n: last digit of a number
- * Return: The value of the last digit
+ * Return: Always 0 (Success)
  */
 int print_last_digit(int n)
 {
 	int a;
 
-	if n >= 0
+	if(n >= 0);
 	{
 		a = n % 10;
 	}
