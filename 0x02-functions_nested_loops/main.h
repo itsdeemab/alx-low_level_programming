@@ -27,3 +27,8 @@ int _isalpha(int c);
  * print_sign - checks sign of number and prints
  */
 int print_sign(int n);
+
+/**
+ * _abs - computes absolute value of an integer
+ */
+int _abs(int);
