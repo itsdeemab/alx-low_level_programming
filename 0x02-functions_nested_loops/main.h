@@ -22,3 +22,8 @@ int _islower(int c);
  * _isalpha - checks for alphabetic characters
  */
 int _isalpha(int c);
+
+/**
+ * print_sign - checks sign of number and prints
+ */
+int print_sign(int n);

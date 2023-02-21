@@ -25,17 +25,3 @@ int print_sign(int n)
 	return (-1);
 	}
 }
-/**
- * main - Entry point
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	int num = 19;
-
-	printf("The sign of %d is ", num);
-	print_sign(num);
-	putchar('\n');
-
-	return (0);
-}
