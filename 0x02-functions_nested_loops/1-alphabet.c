@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  * This is a program has a function that prints the alphabet, in lowercase.
@@ -13,10 +13,5 @@ void print_alphabet(void)
 	putchar(alphabet);
 	alphabet++;
 	}
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
+	putchar('\n');
 }
