@@ -4,14 +4,20 @@
  */
 void jack_bauer(void)
 {
-	int hours, minutes;
+	int hour, min;
 
-	for (hours = 0; hours < 24; hours++)
+	for (hour = 0; hour < 24; hour++)
 	{
-	for (minutes = 0; minutes < 60; minutes++)
+	for (min = 0; min < 60; min++)
 	{
-		printf("%02d:%02d\n", hours, minutes);
+		_putchar((hour / 10) + '0');
+		_putchar((hour % 10) + '0');
+		_putchar(':');
+		_putchar((min / 10) + '0');
+		_putchar((min % 10) + '0');
+		_putchar('\n');
 	}
 	}
 }
+
 
