@@ -1,4 +1,9 @@
 /**
+ * main - entry point
+ */
+int main(void);
+
+/**
  * _putchar - putchar
  */
 int _putchar(char c);
@@ -57,3 +62,15 @@ int add(int a, int b);
  * print_to_98 - Prints all natural numbers from n to 98
  */
 void print_to_98(int n);
+
+/**
+ * print_times_table - prints the n times table starting from 0
+ */
+void print_times_table(int n);
+
+
+/**
+ * print_number - prints a number with correct formatting
+ */
+void print_number(int n);
+
