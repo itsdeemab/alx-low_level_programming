@@ -1,25 +1,32 @@
-include "main.h"
+#include "main.h"
 /**
  * print_triangle - prints a triangle of '#' characters of given size
  * @size: size of the triangle to print
  */
 void print_triangle(int size)
 {
-	if (size <= 0)
+	int i, j, k;
+
+	k = 0;
+	i = size - 1;
+
+	while (k < size)
 	{
-		_putchar('\n');
-        return;
-	}
-	for (int i = 1; i <= size; i++)
-	{
-	for (int j = 1; j <= size-i; j++)
+		i = size - 1 - c;
+		j = k + 1;
+	while (i > 0)
 	{
 		_putchar(' ');
+		i--;
 	}
-	for (int k = 1; k <= i; k++)
+	while (j > 0)
 	{
 		_putchar('#');
+		j--;
 	}
 		_putchar('\n');
+		k++;
 	}
+	if (size <= 0)
+		_putchar('\n');
 }
