@@ -46,7 +46,7 @@ This function takes in one argument, a pointer to a character string s.
 * The function accomplishes this by initializing a variable length to 0 and using a while loop to iterate over the characters in the string. Inside the loop, the function increments the length variable and advances the pointer s to the next character in the string. The loop continues until the null character '\0' is encountered, which indicates the end of the string.
 * When the end of the string is reached, the function returns the value of the length variable, which is the total number of characters in the string (excluding the null character).
 
-°°°Its Dee Mab, [2023/02/27 22:57]
+
 ### 3. I do not fear computers. I fear the lack of them
 * Prototype: void _puts(char *str);
 * File: 3-puts.c
@@ -82,7 +82,7 @@ This function prints every other character of a string, starting with the first 
 * For each character in the string, it checks if the index i is even using the modulus operator %. If i is even (i.e., the remainder of i / 2 is 0), it calls the _putchar function to print the character.
 * After printing every other character, the function prints a newline character using _putchar('\n') to end the line.
 
-°°°Its Dee Mab, [2023/02/27 22:57]
+
 ### 7. Winning is only half of it. Having fun is the other half
 * Prototype: void puts_half(char *str);
 * File: 7-puts_half.c
