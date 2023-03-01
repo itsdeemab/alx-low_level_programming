@@ -7,19 +7,25 @@
  */
 char *leet(char *s)
 {
-	int i, j;
-	char leet[] = "aAeEoOtTlL44337011";
+	char *p = s;
+	char leet[] = {'4', '3', '0', '7', '1'};
+	char lower[] = {'a', 'e', 'o', 't', 'l'};
+	char upper[] = {'A', 'E', 'O', 'T', 'L'};
+	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (*p != '\0')
 	{
-	for (j = 0; j < 10; j++)
+	for (i = 0; i < 5; i++)
 	{
-	if (s[i] == leet[j])
+	if (*p == lower[i] || *p == upper[i])
 	{
-		s[i] = leet[j + 10];
+		*p = leet[i];
 		break;
 	}
 	}
+	p++;
 	}
+
 	return (s);
 }
+
