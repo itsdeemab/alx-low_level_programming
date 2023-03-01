@@ -6,7 +6,7 @@ The main.c files are used as exmples (use cases). They can also be used test to 
 ## Installation
 
 * Move the tester files to the `0x06-pointers_arrays_strings` directory.
-* Run: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 `<tester file>` `<c program being tested>` -o `<name>``
+* Run: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 `tester_file` `c_program_being_tested` -o `name``
 
 Example
 *     gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-strcat.c -o 0-strcat
