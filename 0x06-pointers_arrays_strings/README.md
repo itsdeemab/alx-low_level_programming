@@ -89,7 +89,7 @@ The function initializes a variable, `i`, to zero, and enters a loop that iterat
 
 ### 6. Expect the best. Prepare for the worst. Capitalize on what comes
 * Prototype: `char *cap_string(char *);`
-* File: 6-cap_string.c
+* File: `6-cap_string.c`
 A function that capitalizes all words of a string.
 * The function takes a single argument: a pointer to a null-terminated string, `str`.
 * The function initializes a variable, `i`, to zero, and enters a loop that iterates over each character in the string. The loop continues until it reaches the null terminator at the end of the string.
