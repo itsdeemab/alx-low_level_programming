@@ -88,7 +88,7 @@ The function initializes a variable, `i`, to zero, and enters a loop that iterat
 * Once the loop has finished, the function has modified the string in place by changing all lowercase letters to uppercase.
 
 ### 6. Expect the best. Prepare for the worst. Capitalize on what comes
-* Prototype: char *cap_string(char *);
+* Prototype: `char *cap_string(char *);`
 * File: 6-cap_string.c
 A function that capitalizes all words of a string.
 * The function takes a single argument: a pointer to a null-terminated string, `str`.
