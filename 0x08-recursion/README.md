@@ -1,5 +1,5 @@
 
-# x08. C - Recursion
+# 0x08. C - Recursion
 
 Have you ever played with a set of Russian dolls that fit inside each other? Each doll has a smaller doll inside it, and that smaller doll also has an even smaller doll inside it, and so on.
 
@@ -63,5 +63,3 @@ So, recursion is like breaking down a problem into smaller pieces, and solving e
 ## Feedback
 
 If you have any feedback, please reach out to me at hello@itsdeemab.com
-
-0
